@@ -1,0 +1,14 @@
+😀 ## Different ways to concatenate strings in python:
+     Context: Suppose there is a variable with name youtuber and you wish to print "Subscribe to ________" where in place of dashes you want to print the youtuber's name.
+      You can do so in following ways:
+          i.   print("Subscribe to "+youtuber)
+          ii.  print("Subscribe to {}".format(youtuber))
+          iii. print(f"Subscribe to {youtuber}")
+   
+   ## To select a random integer in a range:
+      Use random library function randint
+        Syntax: random.randint(1,10) // selects a random integer in range [1,10]
+      
+   ## To select a random element from a list and other sequence types
+     Use random library function choice
+        Syntax: random.choice(['r','p','s']) // selects a random element from list
